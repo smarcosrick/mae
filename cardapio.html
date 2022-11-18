@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-image: url(https://i.pinimg.com/originals/4f/93/92/4f9392d329f31c7757b28533f059e9ae.gif);
+        background-repeat: no-repeat;
+        background-size: 1990px;
+    }
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/ac/50/5a/pizza-burrata.jpg" alt="Pepperoni" width="600" height="400">
+    <div class="desc">Pepperoni</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2020/06/Pizza-portuguesa-de-frigideira-freeepik.jpg" alt="Portuguesa" width="600" height="400">
+    <div class="desc">Portuguesa</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://static.baratocoletivo.com.br/2020/0217/oferta_15819654794093_destaque.jpg" alt="Frango e cheddar" width="600" height="400">
+    <div class="desc">Frango e cheddar</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://shoppoupeaqui.com.br/1754-large_default/pizza-frango-c-catupiry.jpg" alt="frango com catupiry" width="600" height="400">
+    <div class="desc">Frango com catupiry</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+</body>
+</html>
+
+
