@@ -1,0 +1,24 @@
+body{
+    background-image: url();
+    background-size: 1950px;
+    background-repeat: no-repeat;
+}
+.container {
+  border-radius: 10px;
+  width: 82%;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(1, 1, 1, 0.6);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    font-family: cursive, Lucida Handwriting, sans-serif;
+}
+p{
+    font-size: 30px;
+    color: red;
+    font-family: cursive, Lucida Handwriting, sans-serif;
+}
